@@ -1,23 +1,28 @@
 function readingList(books) {
-  // Write your code here...
-}
+    return books.title
+    return books.author
+    return books.alreadyRead
 
-const books = [
-  {
-    title: "The Design of Everyday Things",
-    author: "Don Norman",
-    alreadyRead: false
-  },
-  {
-    title: "The Most Human Human",
-    author: "Brian Christian",
-    alreadyRead: true
-  },
-  {
-    title: "The Pragmatic Programmer",
-    author: "Andrew Hunt",
-    alreadyRead: true
-  }
+
+};
+// Write your code here...
+
+
+const books = [{
+        title: "The Design of Everyday Things",
+        author: "Don Norman",
+        alreadyRead: false
+    },
+    {
+        title: "The Most Human Human",
+        author: "Brian Christian",
+        alreadyRead: true
+    },
+    {
+        title: "The Pragmatic Programmer",
+        author: "Andrew Hunt",
+        alreadyRead: true
+    }
 ];
 
-readingList(books);
+console.log(books);
