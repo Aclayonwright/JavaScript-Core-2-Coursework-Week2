@@ -1,11 +1,13 @@
 function listOfNames(arrayOfPeople) {
-  let content = document.querySelector("#content");
+    let content = document.querySelector("#content");
 }
 
 let people = [
-  { name: "Chris", job: "Teacher" },
-  { name: "Joanna", job: "Student" },
-  { name: "Boris", job: "Prime Minister" },
+    { name: "Chris", job: "Teacher" },
+    { name: "Joanna", job: "Student" },
+    { name: "Boris", job: "Prime Minister" },
 ];
 
 listOfNames(people);
+return people.name;
+return people.job;
